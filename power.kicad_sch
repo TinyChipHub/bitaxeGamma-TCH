@@ -575,6 +575,151 @@
 				)
 			)
 		)
+		(symbol "Diode:BAT42W-V"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAT42W-V"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/85660/bat42.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "30V 0.2A Small Signal Schottky diode, SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAT42W-V_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAT42W-V_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "bitaxe:TPS546D24"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1873,6 +2018,12 @@
 		(uuid "e8bfaea9-88be-421a-aeda-ebfae847850b")
 	)
 	(junction
+		(at 29.21 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e920dab1-c216-4510-ba7c-9ac29c8f84a9")
+	)
+	(junction
 		(at 158.75 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1883,6 +2034,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef8e732c-da62-475f-aac3-3174c89471cb")
+	)
+	(junction
+		(at 39.37 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0d06810-96ff-4102-9dcd-fcc13165746a")
 	)
 	(junction
 		(at 82.55 34.29)
@@ -2214,6 +2371,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 29.21) (xy 29.21 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0e2d78-1b3f-4e88-bec5-f61601418ea6")
+	)
+	(wire
+		(pts
 			(xy 135.89 58.42) (xy 139.7 58.42)
 		)
 		(stroke
@@ -2314,6 +2481,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 17.78) (xy 29.21 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b9e441-7567-44fa-8ade-e2923a49e288")
+	)
+	(wire
+		(pts
 			(xy 101.6 17.78) (xy 91.44 17.78)
 		)
 		(stroke
@@ -2334,7 +2511,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 17.78) (xy 39.37 17.78)
+			(xy 21.59 17.78) (xy 29.21 17.78)
 		)
 		(stroke
 			(width 0)
@@ -3354,6 +3531,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 17.78) (xy 39.37 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43fb08f-31f2-4195-949f-547b8ded32b8")
+	)
+	(wire
+		(pts
 			(xy 186.69 39.37) (xy 195.58 39.37)
 		)
 		(stroke
@@ -3431,6 +3618,16 @@
 			(type default)
 		)
 		(uuid "c98ad5d1-5a92-4b80-9d09-276682454140")
+	)
+	(wire
+		(pts
+			(xy 29.21 34.29) (xy 39.37 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa17d4d-5483-420e-ac35-b23dca138288")
 	)
 	(wire
 		(pts
@@ -3865,7 +4062,7 @@
 	)
 	(text "Input \n4.5-5.5V"
 		(exclude_from_sim no)
-		(at 25.908 28.448 0)
+		(at 16.002 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4202,7 +4399,7 @@
 	)
 	(hierarchical_label "VIN"
 		(shape input)
-		(at 34.29 17.78 180)
+		(at 21.59 17.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5314,6 +5511,76 @@
 			(project "bitaxeGamma"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT42W-V")
+		(at 29.21 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "527daa97-baaf-4657-9e6c-6894290c5038")
+		(property "Reference" "D1"
+			(at 31.75 23.8124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CESD5V0D1"
+			(at 31.75 26.3524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 24.765 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "C85649"
+			(at 29.21 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "C85649"
+			(at 29.21 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c4f5ee8-1ceb-44ec-a637-c13539942c20")
+		)
+		(pin "2"
+			(uuid "b83c111b-5f6a-4f68-900e-2dd50143415f")
+		)
+		(instances
+			(project "bitaxeGamma"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
+					(reference "D1")
 					(unit 1)
 				)
 			)
