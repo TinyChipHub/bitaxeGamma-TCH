@@ -5535,7 +5535,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CESD5V0D1"
+		(property "Value" "P6SMBJ6.8CA"
 			(at 31.75 26.3524 90)
 			(effects
 				(font
@@ -5544,7 +5544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 24.765 25.4 0)
 			(effects
 				(font
@@ -5553,7 +5553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "C85649"
+		(property "Datasheet" "C5125674"
 			(at 29.21 25.4 0)
 			(effects
 				(font
@@ -5562,7 +5562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C85649"
+		(property "Description" "C5125674"
 			(at 29.21 25.4 0)
 			(effects
 				(font
