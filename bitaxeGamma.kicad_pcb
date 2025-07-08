@@ -20358,7 +20358,7 @@
 		(path "/4cf9c075-d009-4c35-9949-adda70ae20c7/61f6b27c-a7ff-4127-81b8-9cd8e4a7e4b6")
 		(sheetname "/BM1370/")
 		(sheetfile "bm1370.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
